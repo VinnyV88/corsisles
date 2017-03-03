@@ -3,21 +3,18 @@ var portfolio = [
         link: "./playoffs.html",
         imgSrc: "assets/images/playoffs385x257.png",
         caption: "Playoff Odds",
-        // githubLink: "https://github.com/VinnyV88/week-3-game#hangman-breaking-bad-edition",
         synopsis: "An interactive chart that shows the Islanders chances of making the playoffs and their point totals, day by day."
     },
     shots = {
         link: "./shots.html",
         imgSrc: "assets/images/shots385x257.png",
         caption: "Shot Location",
-        // githubLink: "https://github.com/VinnyV88/week-4-game#star-wars-rpg",
         synopsis: "An interactive grahic that shows all the shots taken by Islander players, and wether the shot resulted in a goal. You can subset the the view by game number, player, and game situation."
     },
     games = {
         link: "./games.html",
         imgSrc: "assets/images/games385x257.png",
         caption: "Game Scores",
-        // githubLink: "https://github.com/VinnyV88/TriviaGame#trivia-game-wwewwf-edition",
         synopsis: "An interactive chart that shows each Islander players' Game Score, with the ability to subset the chart by game numbers."
     }
 ];

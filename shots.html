@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
@@ -23,13 +24,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-        <a class="navbar-brand" href="index.html"><span class="byname byname-lg"> by Vincent Visconti</span><img class="logo logo-lg" src="assets/images/ViVi_Web_logo_03.svg" alt="Logo"></a>
+        <a class="navbar-brand" href="index.html"><img class="logo logo-lg" src="assets/images/corsisles2.svg" alt="Logo"></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html"><span class="glyphicon glyphicon-user"></span> About Me</a></li>
-          <li><a href="portfolio.html"><span class="glyphicon glyphicon-briefcase"></span> Portfolio</a></li>
-          <li class="active"><a href="contact.html"><span class="glyphicon glyphicon-inbox"></span> Contact</a></li>
+          <li><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
+          <li><a href="playoffs.html"><span class="fa fa-line-chart"></span> Playoff Odds</a></li>
+          <li class="active"><a href="shots.html"><span class="fa fa-crosshairs"></span> Shot Location</a></li>
+          <li><a href="games.html"><span class="fa fa-sort-amount-desc"></span> Game Scores</a></li>
         </ul>
       </div>
     </div>
@@ -37,21 +39,21 @@
 
   <div class="container">
 
-    <div class="row">
+    <div class="row margin-bottom-lg">
       <div class="col-md-12 margin-bottom-md flex-container">
-        <h2>Shot Chart</h2>
-        <div class="row margin-bottom-lg">
+        <h2>Shot Location</h2>
+        <div class="row">
           <div class="col-md-10 col-md-offset-1">
 
             <!--Start: Graph Embed -->
-            
-            <div class='tableauPlaceholder' id='viz1488484520793' style='position: relative'>
+
+            <div class='tableauPlaceholder' id='viz1488555311687' style='position: relative'>
               <noscript>
-                <a href='http:&#47;&#47;corsisles.blogspot.com&#47;p&#47;new-york-islanders-shot-location.html'><img alt='NYI Shot Data ' src='http:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewYorkIslandersShotLocation&#47;NYIShotData&#47;1_rss.png'
+                <a href='#'><img alt='NYI Shot Data ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewYorkIslandersShotLocation&#47;NYIShotData&#47;1_rss.png'
                     style='border: none' /></a>
-              </noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='NewYorkIslandersShotLocation&#47;NYIShotData' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='http:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewYorkIslandersShotLocation&#47;NYIShotData&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>
+              </noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='NewYorkIslandersShotLocation&#47;NYIShotData' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewYorkIslandersShotLocation&#47;NYIShotData&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>
             <script type='text/javascript'>
-              var divElement = document.getElementById('viz1488484520793');
+              var divElement = document.getElementById('viz1488555311687');
               var vizElement = divElement.getElementsByTagName('object')[0];
               vizElement.style.width = '100%';
               vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
@@ -71,16 +73,21 @@
   </div>
 
   <footer class="footer">
-    <div class="container">
-      <div class="footer-flex-container text-center">
+    <div class="container-flex text-center">
+      <div class="footer-flex-container">
         <div class="footer-flex-items">
           <div class="text-muted copyright footer-flex-item">
-            &copy; Copyright 2016-2017 Vincent Visconti
+            &copy; Copyright 2017 Reagan King
           </div>
           <div class="footer-connect footer-flex-item">
           </div>
+          <div class="design-by">
+            <span class="byname"> Website designed by </span><a href="http://vivi.guru"><img class="design-logo" src="assets/images/ViVi_Web_Logo.svg" alt="Design Logo"></a>
+          </div>
+
         </div>
       </div>
+    </div>
   </footer>
 
   <script src="https://code.jquery.com/jquery.js"></script>
